@@ -1,11 +1,10 @@
 # Data collection
-To get the data from Google Open Images  Dataset v7
-    1. Run 'git clone https://github.com/EscVM/OIDv4_ToolKit.git'
-    2. Run 'cd OIDv4_ToolKit'
-    3. Run 'python main.py downloader --classes <ClassNames> --type_csv train --multiclass 1 --limit <DataSize>
-    Ex: Python main.py downloader --classes Car Motorcycle --type_csv train --multiclass 1 --limit 1000
+    git clone https://github.com/EscVM/OIDv4_ToolKit.git
+    cd OIDv4_ToolKit
+    python main.py downloader --classes <ClassNames> --type_csv train --multiclass 1 --limit <DataSize>
 
-To get the data from Kaggle dataset, access: 'https://www.kaggle.com/datasets/andrewmvd/car-plate-detection/download?datasetVersionNumber=1'
+To get the data from Kaggle dataset, access:
+    https://www.kaggle.com/datasets/andrewmvd/car-plate-detection/download?datasetVersionNumber=1
 
 # Data management
 We will use Roboflow to manage and anotate the images
