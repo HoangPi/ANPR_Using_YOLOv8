@@ -10,6 +10,9 @@ To get the data from Kaggle dataset, access: 'https://www.kaggle.com/datasets/an
 # Data management
 We will use Roboflow to manage and anotate the images
 
+# Data training
+    View in https://colab.research.google.com/drive/1MT5me9t18PFTEPNs7tYWa1IOelhTNWEt?usp=sharing
+
 # API for getting data from Roboflow
 
 ## Car_Motocycle dataset
