@@ -31,5 +31,6 @@ We will use Roboflow to manage and anotate the images
     dataset = project.version(3).download("yolov8")
 
 ## Pre-requirement for using tesseract OCR
-    1. Install tesseract by following this instruction: https://tesseract-ocr.github.io/tessdoc/Installation.html
-    2. Copy the plate.traineddata into tessdata (tessdata is in the 'tesseract-ocr/4.00/' in the installation directory)
+1. Install tesseract by following this instruction: 
+    https://tesseract-ocr.github.io/tessdoc/Installation.html
+2. Copy the plate.traineddata into tessdata (tessdata is in the 'tesseract-ocr/4.00/' in the installation directory)
